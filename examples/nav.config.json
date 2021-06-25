@@ -1,18 +1,6 @@
 {
   "zh-CN": [
     {
-      "name": "更新日志",
-      "path": "/changelog"
-    },
-    {
-      "name": "Element React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element Angular",
-      "href": "https://element-angular.faas.ele.me/"
-    },
-    {
       "name": "开发指南",
       "children": [
         {
@@ -78,7 +66,7 @@
           ]
         },
         {
-          "groupName": "Form",
+          "groupName": "表单",
           "list": [
             {
               "path": "/radio",
@@ -147,7 +135,7 @@
           ]
         },
         {
-          "groupName": "Data",
+          "groupName": "数据",
           "list": [
             {
               "path": "/table",
@@ -188,7 +176,7 @@
           ]
         },
         {
-          "groupName": "Notice",
+          "groupName": "弹窗",
           "list": [
             {
               "path": "/alert",
@@ -213,7 +201,7 @@
           ]
         },
         {
-          "groupName": "Navigation",
+          "groupName": "导航",
           "list": [
             {
               "path": "/menu",
@@ -242,7 +230,7 @@
           ]
         },
         {
-          "groupName": "Others",
+          "groupName": "其他",
           "list": [
             {
               "path": "/dialog",

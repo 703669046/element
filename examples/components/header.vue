@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-align: center;
     color: #eee;
+    display: none;
   }
 
   #v3-banner a {
@@ -297,21 +298,22 @@
         <h1><router-link :to="`/${ lang }`">
           <!-- logo -->
           <slot>
-            <img
+            <!-- <img
               src="../assets/images/element-logo.svg"
               alt="element-logo"
               class="nav-logo">
             <img
               src="../assets/images/element-logo-small.svg"
               alt="element-logo"
-              class="nav-logo-small">
+              class="nav-logo-small"> -->
+              <div>hauler-ui</div>
           </slot>
 
         </router-link></h1>
 
         <!-- nav -->
         <ul class="nav">
-          <li class="nav-item nav-algolia-search" v-show="isComponentPage">
+          <!-- <li class="nav-item nav-algolia-search" v-show="isComponentPage">
             <algolia-search></algolia-search>
           </li>
           <li class="nav-item">
@@ -319,7 +321,7 @@
               active-class="active"
               :to="`/${ lang }/guide`">{{ langConfig.guide }}
             </router-link>
-          </li>
+          </li> -->
           <li class="nav-item">
             <router-link
               active-class="active"
@@ -334,13 +336,13 @@
               :to="`/${ lang }/theme`">{{ langConfig.theme }}
             </router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link
               active-class="active"
               :to="`/${ lang }/resource`"
               exact>{{ langConfig.resource }}
             </router-link>
-          </li>
+          </li> -->
 
           <!-- gap -->
           <li class="nav-item" v-show="isComponentPage">
